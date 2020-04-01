@@ -34,7 +34,7 @@ routes.post("/login", (req, res) => {
       console.log(err)
       return res.send("Usuário ou senha inválidos");
     } else {
-      res.send('Login realizado com sucesso.');
+      res.send("Login realizado com sucesso.");
     }
   })
 
